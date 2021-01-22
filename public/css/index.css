@@ -1,0 +1,20 @@
+html{
+   height: 100vh;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+.header{
+   /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+   flex: 0 0 auto;
+}
+.main{
+   /* 1 flex-grow, 0 flex-shrink, auto flex-basis */
+   flex: 1 0 auto;
+}
+.page-footer{
+   /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+   flex: 0 0 auto;
+}

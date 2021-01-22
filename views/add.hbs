@@ -1,0 +1,26 @@
+<h1>Добавить товар</h1>
+
+<form method="POST" action="/add">
+	<div class="row">
+
+		<div class="input-field">
+			<input placeholder="Название товара" name="name" id="name" type="text" class="validate" required>
+			<label for="name"></label>
+			<span class="helper-text" data-error="Введите название"></span>
+		</div>
+
+		<div class="input-field">
+			<input placeholder="Цена товара" name="price" id="price" type="number" class="validate" required min="1">
+			<label for="price"></label>
+			<span class="helper-text" data-error="Введите цену"></span>
+		</div>
+
+		<div class="input-field">
+			<input placeholder="URL картинки товара" name="url" id="url" type="text" class="validate" required>
+			<label for="url"></label>
+			<span class="helper-text" data-error="Введите url"></span>
+		</div>
+		<button class="btn">Добавить товар</button>
+	</div>
+	</div>
+</form>
